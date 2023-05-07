@@ -1,0 +1,23 @@
+/*-----------------------------------------------------------Header*/
+
+.banner-font {
+    color: #fff;
+    font-size: large;
+}
+
+.banner-font a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+}
+
+/*-----------------------------------------------------------index.html*/
+
+
+
+/*-----------------------------------------------------------Footer*/
+
+.footer-text h2 {
+    color: #fff;
+    font-size: small;
+}
