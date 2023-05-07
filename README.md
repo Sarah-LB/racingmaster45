@@ -27,8 +27,7 @@ This is a portfolio site to showcase the immense talent that is: Racing Master 4
 
 -   ### Design
     -   #### Colour Scheme
-        -   The four main colours used are [INSERT COLOURS].  These were inspired by the [Adobe Color library](https://color.adobe.com/trends/Game-design).  [EXPLAIN WHY].
-    -   #### Typography
+        -   The three main colours used are red, black and white.  These were chosen by Racing Master 45 and are the colours of his brand. Red is a strong look, symbolising passion, energy and a call to action. Black and white are both classic, clean and elegant, allowing for a clean, clear and edgy look to the site.
         -   The [INSERT FONT] font is the main font used throughout the whole website with Cursive as the fallback font in case the font isn't being imported into the site correctly. [INSERT FONT] is a clean and clear font with the casual hand-written style adding a more fun and friendly feel. [ADD INFO ON WHATEVER FONT IS CHOSEM]
     -   #### Imagery
         -   Imagery is important. The large, motorsport images are designed to be striking and catch the user's attention.  They also add a descriptive element - depicting what is being discussed in that section of the site.
