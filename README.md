@@ -1,108 +1,223 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="center">Racing Master 45</h1>
 
-Welcome USER_NAME,
+[View the live project here.](#)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This is a portfolio site to showcase the immense talent that is: Racing Master 45.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## User Experience (UX)
 
-## Gitpod Reminders
+-   ### User stories
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+    -   #### First Time Visitor Goals
 
-`python3 -m http.server`
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about Racing Master 45.
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+        3. As a First Time Visitor, I want to locate the social media links to see their followings on social media and find any other content that is available.
 
-A blue button should appear to click: _Make Public_,
+    -   #### Returning Visitor and Frequent User Goals
 
-Another blue button should appear to click: _Open Browser_.
+        1. As a Returning Visitor, I want to find new content.
+        2. As a Returning Visitor, I want to find social media links.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    -   #### Developer and Site Owner Goals
 
-A blue button should appear to click: _Make Public_,
+        1. As a Developer/Site Owner, I want to build an interactive frontend site.
+        2. As a Developer/Site Owner, I want to convey the talent and enthusiasm of Racing Master 45.
+        3. As a Developer/Site Owner, I want to make Racing Master 45's social media links accessible in order to promote any other channels they use.
 
-Another blue button should appear to click: _Open Browser_.
+-   ### Design
+    -   #### Colour Scheme
+        -   The four main colours used are [INSERT COLOURS].  These were inspired by the [Adobe Color library](https://color.adobe.com/trends/Game-design).  [EXPLAIN WHY].
+    -   #### Typography
+        -   The [INSERT FONT] font is the main font used throughout the whole website with Cursive as the fallback font in case the font isn't being imported into the site correctly. [INSERT FONT] is a clean and clear font with the casual hand-written style adding a more fun and friendly feel. [ADD INFO ON WHATEVER FONT IS CHOSEM]
+    -   #### Imagery
+        -   Imagery is important. The large, motorsport images are designed to be striking and catch the user's attention.  They also add a descriptive element - depicting what is being discussed in that section of the site.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+*   ### Wireframes
 
-To log into the Heroku toolbelt CLI:
+    -   Home Page Wireframe - [View](#)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+    -   About Wireframe - [View](#)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+    -   Sim Racing Wireframe - [View](#)
 
-------
+    -   Karting Wireframe - [View](#)
 
-## Release History
+    -   Contact Wireframe - [View](#)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Features
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+-   The site is responsive on all device sizes
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+-   There are interactive elements
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Technologies Used
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Languages Used
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [JavaScipt](https://www.javascript.com/)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Frameworks, Libraries & Programs Used
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [Hover.css:](https://ianlunn.github.io/Hover/)
+    - Hover.css was used on the navbar and main body to change the colour of menu items while being hovered over.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the '[insert font]' and '[insert font]' fonts.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for social media.
+1. [jQuery:](https://jquery.com/)
+    - jQuery came with Bootstrap to make the navbar responsive.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the wireframes during the design process.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Testing
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+-   [W3C Markup Validator](https://validator.w3.org/) - [Results](#)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Result](#)
+-   [JavaScript Validator](https://jshint.com/) - [Results](#)
+-   [HTML, CSS and JavaScript formatter](https://webformatter.com/)
+-   Lighthouse used for responsiveness, compatability, accessibility etc. - [Results](#)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Testing User Stories from User Experience (UX) Section
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+-   #### First Time Visitor Goals
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about Racing Master 45.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+        1. Upon entering the site, users are automatically greeted with two clear and easily readable buttons to go to the page of their choice.
+        2. Motorsports images are used throughout to clearly represent the nature of the page.
 
-------
+    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
-## FAQ about the uptime script
+        1. At the top of each page there is a clean navigation bar, each link describes the page they will end up at clearly.
 
-**Why have you added this script?**
+    3. As a First Time Visitor, I want to locate the social media links to see their followings on social media and find any other games that are available.
+        
+        1. The user can find social media links clearly poisitioned at the bottom of the page, in the footer, on every page.  These will open in a new window.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+-   #### Returning Visitor and Frequent Visitor Goals
 
-**How will this affect me?**
+    1. As a Returning Visitor, I want to find new content.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+        1. The site is easy to navigate with a banner at the top of every page with alink to youtube so returning visitors can easily check out any new vidoes that have been uploaded.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+    2. As a Returning Visitor, I want to find social media links.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+        1. The user can find social media links prominently poisitioned at the bottom of the page, in the footer, on every page.
+    
+-   #### Developer and Site Owner Goals
 
-**So….?**
+    1. As a Developer/Site Owner, I want to build an interactive frontend site.
+        
+        1. A contact form is available for users to interact.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+    2. As a Developer/Site Owner, I want to convey the talent and enthusiasm of Racing Master 45.
+        
+        1. Photographs, social media links and quotes are included to capture this young man's racing journey. 
 
-**Can I opt out?**
+    3. As a Developer/Site Owner, I want to make Racing Master 45's social media links accessible in order to promote any other channels they use.
+        
+        1. Social media links are prominently poisitioned at the bottom of the page, in the footer, on every page.
+        2. A banner at the top of each page displays the youtube link.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Further Testing
+
+-   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone6, iPhone8, Samsung Galaxy A71 & iPad.
+-   A large amount of testing was done to ensure that all pages were linking correctly and the site was working.
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+### Fixed Bugs
+-   Include here
+
+### Known Bugs
+
+-   No known bugs.
+
+### Planned Improvements
+
+-   Include here
+
+## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Sarah-LB/MySecondProject)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://sarah-lb.github.io/MySecondProject/) in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Sarah-LB/MySecondProject)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Sarah-LB/MySecondProject)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
-pkill uptime.sh
-rm .vscode/uptime.sh
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 
-**Anything more?**
+7. Press Enter. Your local clone will be created.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
 
----
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
-Happy coding!
+## Credits
+
+### Code
+
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+-   The README code was taken and adapted from the [Code Institute Sample ReadMe](https://github.com/Code-Institute-Solutions/SampleREADME/commit/982e3b0e0086ced89d9a643d9e4d9d0c6f938ec2).
+
+-   [Box shadows](https://getcssscan.com/css-box-shadow-examples): Used code to put box shadows on buttons on index.html page.
+
+-   Repository generated from Code-Institute-Org/gitpod-full-template.
+
+### Content
+
+-   All content was written by the developer.
+
+-   Psychological properties of colours text in the README.md was found [here](https://www.trajectorywebdesign.com/blog/web-design-color-psychology/).
+
+### Media
+
+-   Include here
+
+### Acknowledgements
+
+-   Include here
