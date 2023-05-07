@@ -2,22 +2,41 @@
 
 .banner-font {
     color: #fff;
-    font-size: large;
+    font-size: 20px;
 }
 
 .banner-font a {
     text-decoration: none;
     color: #fff;
-    font-weight: 800;
+}
+
+.nav-menu-font {
+    font-size: 18px;
+}
+
+.nav-logo-font {
+    font-size: 24px;
 }
 
 /*-----------------------------------------------------------index.html*/
 
-
+.sim-racing {
+    background: url("../images/f122.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+}
 
 /*-----------------------------------------------------------Footer*/
 
 .footer-text h2 {
     color: #fff;
-    font-size: small;
+    font-size: 11px;
 }

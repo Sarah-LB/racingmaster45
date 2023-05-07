@@ -207,6 +207,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   Repository generated from Code-Institute-Org/gitpod-full-template.
 
+-   Buy me a coffee button
+
 ### Content
 
 -   All content was written by the developer.
