@@ -23,12 +23,12 @@ main .mixed-main {
 }
 
 .nav-menu-font {
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Inter', sans-serif;
 }
 
 .nav-logo-font {
-    font-size: 24px;
+    font-size: 26px;
     font-family: 'Inter', sans-serif;
 }
 
@@ -67,6 +67,35 @@ main .mixed-main {
     font-weight: 800;
     padding-top: 10%;
 }
+
+/*-----------------------------------------------------------About*/
+
+.profile-title {
+    font-family: 'Bruno Ace', cursive;
+    font-size: 30px;
+}
+
+.profile-stats {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color:#ffffff;
+    list-style-type: none;
+    text-align: left;
+}
+
+.profile-stats tr td{
+    vertical-align: top;
+    padding: 0 15px;
+}
+
+.profile-text {
+    color:#ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+
 /*-----------------------------------------------------------Footer*/
 
 .footer-text h2 {
@@ -77,4 +106,16 @@ main .mixed-main {
 
 .coffee {
     padding-bottom: 30px;
+}
+
+
+/*-----------------------------------------------------------Media Queries*/
+
+@media (max-width: 992px) {
+    .profile-text {padding-bottom: 150px;}
+}
+
+@media (max-width: 1200px) {
+.nav-logo-font {font-size: 20px;}
+.nav-menu-font {font-size: 16px;}
 }
