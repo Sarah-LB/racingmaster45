@@ -1,6 +1,9 @@
 body {
-    background-color: #000000;
     height: 100vh;
+}
+
+bg_body {
+    background-color: #000000;
 }
 
 main,
@@ -78,7 +81,7 @@ main .mixed-main {
 .profile-stats {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
-    color:#ffffff;
+    color:#000000;
     list-style-type: none;
     text-align: left;
 }
@@ -89,10 +92,30 @@ main .mixed-main {
 }
 
 .profile-text {
-    color:#ffffff;
+    color:#000000;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     text-align: left;
+}
+
+.mixed-main {
+    margin-top:50px!important;
+}
+
+img{
+    max-width:100%;
+    object-fit: cover;
+}
+
+.overlay-text {
+  float:right;
+  width:65%; /*important*/
+  bottom:10vw; /*important*/
+  padding: 25px 80px;
+  background:#f7f7f7;
+  position:relative;
+  align-self: flex-start;
+  transform: translateX(40%);
 }
 
 
