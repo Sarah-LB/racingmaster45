@@ -16,6 +16,12 @@ main .mixed-main {
     height: 50%;
 }
 
+.about-main,
+.mixed-main {
+    padding-top: 100px;
+}
+
+
 /*-----------------------------------------------------------Header*/
 
 .banner-font a {
@@ -113,7 +119,7 @@ main .mixed-main {
   width:65%;
   bottom:10vw;
   padding: 25px 80px;
-  background:#f7f7f7;
+  background:#dddddd;
   position:relative;
   align-self: flex-start;
 }
