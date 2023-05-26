@@ -124,6 +124,10 @@ main .mixed-main {
     text-decoration: none;
 }
 
+.profile-text li {
+    padding: 5px;
+}
+
 /*-----------------------------------------------------------Footer*/
 
 .footer-text h2 {
