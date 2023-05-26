@@ -2,7 +2,7 @@ body {
     height: 100vh;
 }
 
-bg_body {
+.bg_body {
     background-color: #000000;
 }
 
@@ -98,7 +98,7 @@ main .mixed-main {
     text-align: left;
 }
 
-.mixed-main {
+.about-main {
     margin-top:50px!important;
 }
 
@@ -118,6 +118,11 @@ img{
   transform: translateX(40%);
 }
 
+/*-----------------------------------------------------------sim-racing.html*/
+
+.yt-link {
+    text-decoration: none;
+}
 
 /*-----------------------------------------------------------Footer*/
 
