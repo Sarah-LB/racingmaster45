@@ -28,7 +28,7 @@ This is a portfolio site to showcase the immense talent that is: Racing Master 4
 -   ### Design
     -   #### Colour Scheme
         -   The three main colours used are red, black and white.  These were chosen by Racing Master 45 and are the colours of his brand. Red is a strong look, symbolising passion, energy and a call to action. Black and white are both classic, clean and elegant, allowing for a clean, clear and edgy look to the site.
-        -   The [INSERT FONT] font is the main font used throughout the whole website with Cursive as the fallback font in case the font isn't being imported into the site correctly. [INSERT FONT] is a clean and clear font with the casual hand-written style adding a more fun and friendly feel. [ADD INFO ON WHATEVER FONT IS CHOSEM]
+        -   The Inter font is the main font used throughout the whole website with sans serif as the fallback font in case the font isn't being imported into the site correctly. Inter is a clean and clear font that is easy to read.  Bruno Ace font is used for headings with cursive as the fallback.  This is also a clean and clear font but with a modern and edgy style.
     -   #### Imagery
         -   Imagery is important. The large, motorsport images are designed to be striking and catch the user's attention.  They also add a descriptive element - depicting what is being discussed in that section of the site.
 
@@ -48,7 +48,7 @@ This is a portfolio site to showcase the immense talent that is: Racing Master 4
 
 -   The site is responsive on all device sizes
 
--   There are interactive elements
+-   The contact form is interactive
 
 ## Technologies Used
 
@@ -213,11 +213,13 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   All content was written by the developer.
 
+-   Contact form based on example from [Codepen](https://codepen.io/atakde/pen/oNoqWjw).
+
 -   Psychological properties of colours text in the README.md was found [here](https://www.trajectorywebdesign.com/blog/web-design-color-psychology/).
 
 ### Media
 
--   Include here
+-   All media content created by the developer.
 
 ### Acknowledgements
 
