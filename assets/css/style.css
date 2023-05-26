@@ -84,6 +84,7 @@ main .mixed-main {
     color:#000000;
     list-style-type: none;
     text-align: left;
+    margin: 20px 0;
 }
 
 .profile-stats tr td{
@@ -102,20 +103,19 @@ main .mixed-main {
     margin-top:50px!important;
 }
 
-img{
+.profile-pic{
     max-width:100%;
     object-fit: cover;
 }
 
 .overlay-text {
   float:right;
-  width:65%; /*important*/
-  bottom:10vw; /*important*/
+  width:65%;
+  bottom:10vw;
   padding: 25px 80px;
   background:#f7f7f7;
   position:relative;
   align-self: flex-start;
-  transform: translateX(40%);
 }
 
 /*-----------------------------------------------------------sim-racing.html*/
@@ -141,6 +141,13 @@ img{
 
 @media (max-width: 992px) {
     .profile-text {padding-bottom: 150px;}
+    .overlay-text {
+        float:none;
+        width:100%;
+        padding: 25px 10px;
+        background:#f7f7f7;
+      }
+    .about-main {text-align: center;}
 }
 
 @media (max-width: 1200px) {
