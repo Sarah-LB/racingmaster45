@@ -32,11 +32,7 @@ This is a portfolio site to showcase the immense talent that is: Racing Master 4
         -   The three main colours used are red, black and white.  These were chosen by Racing Master 45 and are the colours of his brand.
         -   The Inter font is the main font used throughout the whole website with sans serif as the fallback font in case the font isn't being imported into the site correctly. Inter is a clean and clear font that is easy to read.  Bruno Ace font is used for headings with cursive as the fallback.  This is also a clean and clear font but with a modern and edgy style.
     -   #### Imagery
-        -   Imagery is important. The large, motorsport images are designed to be striking and catch the user's attention.  They also add a descriptive element - depicting what is being discussed in that section of the site.
-
-*   ### Wireframes
-
-    -   Site sketched out on paper before putting into code.
+        -   The large, motorsport images are designed to be striking and catch the user's attention.  They also add a descriptive element - depicting what is being discussed in that section of the site.
 
 ## Features
 
@@ -92,17 +88,17 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     3. As a First Time Visitor, I want to locate the social media links to see their followings on social media and find any other games that are available.
         
-        1. The user can find social media links clearly poisitioned at the bottom of the page, in the footer, on every page.  These will open in a new window.
+        1. The user can find a link to the Racing Master 45 YouTube channel in the red banner across the top of every page. This will open in a new window.
 
 -   #### Returning Visitor and Frequent Visitor Goals
 
     1. As a Returning Visitor, I want to find new content.
 
-        1. The site is easy to navigate with a banner at the top of every page with alink to youtube so returning visitors can easily check out any new vidoes that have been uploaded.
+        1. The site is easy to navigate with a banner at the top of every page with a link to YouTube so returning visitors can easily check out any new vidoes that have been uploaded.
 
     2. As a Returning Visitor, I want to find social media links.
 
-        1. The user can find social media links prominently poisitioned at the bottom of the page, in the footer, on every page.
+        1. The user can find a link to the Racing Master 45 YouTube channel in the red banner across the top of every page. This will open in a new window.
     
 -   #### Developer and Site Owner Goals
 
@@ -115,9 +111,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         1. Photographs, social media links and quotes are included to capture this young man's racing journey. 
 
     3. As a Developer/Site Owner, I want to make Racing Master 45's social media links accessible in order to promote any other channels they use.
-        
-        1. Social media links are prominently poisitioned at the bottom of the page, in the footer, on every page.
-        2. A banner at the top of each page displays the youtube link.
+
+        1. A banner at the top of each page displays the youtube link.
 
 ### Further Testing
 
@@ -126,24 +121,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   A large amount of testing was done to ensure that all pages were linking correctly and the site was working.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-### Fixed Bugs
--   Include here
-
-### Known Bugs
-
--   No known bugs.
-
-### Planned Improvements
-
--   Include here
-
 ## Deployment
 
 ### GitHub Pages
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Sarah-LBRacingMaster45)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Sarah-LB/RacingMaster45)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
     - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
@@ -191,13 +175,13 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   [Bootstrap5](https://getbootstrap.com/docs/5.0/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
--   [Box shadows](https://getcssscan.com/css-box-shadow-examples): Used code to put box shadows on buttons on index.html page.
+-   [Box shadows](https://getcssscan.com/css-box-shadow-examples): Used code to put box shadows on contact form.
 
 -   Repository generated from Code-Institute-Org/gitpod-full-template.
 
--   Buy me a coffee button
+-   Buy me a coffee button generated at [Buy Me A Coffee website](https://www.buymeacoffee.com/brand).
 
--   Marquee on homepage inspired by [w3schools tutorial](https://www.w3schools.in/css3/css-marquee)
+-   Marquee on homepage inspired by [w3schools tutorial](https://www.w3schools.in/css3/css-marquee).
 
 -   Contact form based on example from [Codepen](https://codepen.io/atakde/pen/oNoqWjw).
 
