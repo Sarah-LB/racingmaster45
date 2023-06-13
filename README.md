@@ -4,6 +4,8 @@
 
 This is a portfolio site to showcase the immense talent that is: Racing Master 45.
 
+<h2 align="center"><img src="#"></h2>
+
 ## User Experience (UX)
 
 -   ### User stories
@@ -27,22 +29,14 @@ This is a portfolio site to showcase the immense talent that is: Racing Master 4
 
 -   ### Design
     -   #### Colour Scheme
-        -   The three main colours used are red, black and white.  These were chosen by Racing Master 45 and are the colours of his brand. Red is a strong look, symbolising passion, energy and a call to action. Black and white are both classic, clean and elegant, allowing for a clean, clear and edgy look to the site.
+        -   The three main colours used are red, black and white.  These were chosen by Racing Master 45 and are the colours of his brand.
         -   The Inter font is the main font used throughout the whole website with sans serif as the fallback font in case the font isn't being imported into the site correctly. Inter is a clean and clear font that is easy to read.  Bruno Ace font is used for headings with cursive as the fallback.  This is also a clean and clear font but with a modern and edgy style.
     -   #### Imagery
         -   Imagery is important. The large, motorsport images are designed to be striking and catch the user's attention.  They also add a descriptive element - depicting what is being discussed in that section of the site.
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](#)
-
-    -   About Wireframe - [View](#)
-
-    -   Sim Racing Wireframe - [View](#)
-
-    -   Karting Wireframe - [View](#)
-
-    -   Contact Wireframe - [View](#)
+    -   Site sketched out on paper before putting into code.
 
 ## Features
 
@@ -60,22 +54,18 @@ This is a portfolio site to showcase the immense talent that is: Racing Master 4
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+1. [Bootstrap 5.0:](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the navbar and main body to change the colour of menu items while being hovered over.
+    - Hover.css was used on the homepage images to change the opacity of the background while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the '[insert font]' and '[insert font]' fonts.
-1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for social media.
+    - Google fonts were used to import the 'Bruno Ace' and 'Inter' fonts.
 1. [jQuery:](https://jquery.com/)
     - jQuery came with Bootstrap to make the navbar responsive.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the wireframes during the design process.
 
 ## Testing
 
@@ -153,25 +143,25 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Sarah-LB/MySecondProject)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Sarah-LBRacingMaster45)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
     - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://sarah-lb.github.io/MySecondProject/) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site [link](https://sarah-lb.github.io/RacingMaster45/) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Sarah-LB/MySecondProject)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Sarah-LB/RacingMaster45)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Sarah-LB/MySecondProject)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Sarah-LB/RacingMaster45)
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash
@@ -199,9 +189,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-
--   The README code was taken and adapted from the [Code Institute Sample ReadMe](https://github.com/Code-Institute-Solutions/SampleREADME/commit/982e3b0e0086ced89d9a643d9e4d9d0c6f938ec2).
+-   [Bootstrap5](https://getbootstrap.com/docs/5.0/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
 -   [Box shadows](https://getcssscan.com/css-box-shadow-examples): Used code to put box shadows on buttons on index.html page.
 
@@ -209,18 +197,14 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   Buy me a coffee button
 
-### Content
-
--   All content was written by the developer.
+-   Marquee on homepage inspired by [w3schools tutorial](https://www.w3schools.in/css3/css-marquee)
 
 -   Contact form based on example from [Codepen](https://codepen.io/atakde/pen/oNoqWjw).
 
--   Psychological properties of colours text in the README.md was found [here](https://www.trajectorywebdesign.com/blog/web-design-color-psychology/).
+### Content
+
+-   All content was written by the developer and site owner.
 
 ### Media
 
--   All media content created by the developer.
-
-### Acknowledgements
-
--   Include here
+-   All media content created by the developer and site owner.
