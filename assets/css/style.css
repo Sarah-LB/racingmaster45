@@ -47,38 +47,37 @@ main .mixed-main {
 
 /*-----------------------------------------------------------index.html*/
 
-.sim-racing {
-    background: url("../images/f122.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-    font-size: 30px;
-    text-align: center;
-    vertical-align: middle;
-    color: #ffffff;
-    font-family: 'Bruno Ace', cursive;
-    font-weight: 800;
-    padding-top: 10%;
+.sim-main {
+  background: url("../images/f122.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50%;
 }
 
-.karting {
-    background: url("../images/karting.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
+.kart-main {
+  background: url("../images/karting.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+}
+
+.sim-racing a,
+.karting a{
     text-decoration: none;
     font-size: 30px;
-    text-align: center;
-    vertical-align: middle;
     color: #ffffff;
     font-family: 'Bruno Ace', cursive;
     font-weight: 800;
-    padding-top: 10%;
+    padding: 200px;
+}
+
+.sim-main:hover,
+.kart-main:hover {
+  opacity: 0.8;
 }
 
 /*-----------------------------------------------------------About*/
