@@ -111,7 +111,7 @@ main .mixed-main {
     margin-top:50px!important;
 }
 
-.profile-pic{
+.profile-pic {
     max-width:100%;
     object-fit: cover;
 }
@@ -324,4 +324,9 @@ main .mixed-main {
 .nav-logo-font {font-size: 20px;}
 .nav-menu-font {font-size: 16px;}
 .about-main {text-align: center;}
+}
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+.sim-title {text-align: left;}
 }
