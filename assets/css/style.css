@@ -233,20 +233,20 @@ main .mixed-main {
 }
 
 .contact-form .form-control::placeholder {
-  color: #aeb4b9;
+  color: #797d81;
   font-weight: 500;
   opacity: 1;
   font-family: "Inter", sans-serif;
 }
 
 .contact-form .form-control:-ms-input-placeholder {
-  color: #aeb4b9;
+  color: #797d81;
   font-weight: 500;
   font-family: "Inter", sans-serif;
 }
 
 .contact-form .form-control::-ms-input-placeholder {
-  color: #aeb4b9;
+  color: #797d81;
   font-weight: 500;
   font-family: "Inter", sans-serif;
 }
@@ -257,7 +257,7 @@ main .mixed-main {
 }
 
 .contact-form .description {
-  color: #bbbbbb;
+  color: #797d81;
   font-size: 18px;
   text-align: center;
   font-family: "Inter", sans-serif;
