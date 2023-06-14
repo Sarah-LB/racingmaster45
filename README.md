@@ -46,7 +46,6 @@ This is a portfolio site to showcase the immense talent that is: Racing Master 4
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
--   [JavaScipt](https://www.javascript.com/)
 
 ### Frameworks, Libraries & Programs Used
 
@@ -67,11 +66,10 @@ This is a portfolio site to showcase the immense talent that is: Racing Master 4
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://validator.w3.org/) - [Results](#)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Result](#)
--   [JavaScript Validator](https://jshint.com/) - [Results](#)
+-   [W3C Markup Validator](https://validator.w3.org/) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsarah-lb.github.io%2Fracingmaster45%2Findex.html)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 -   [HTML, CSS and JavaScript formatter](https://webformatter.com/)
--   Lighthouse used for responsiveness, compatability, accessibility etc. - [Results](#)
+-   Lighthouse used for responsiveness, compatability, accessibility etc.
 
 ### Testing User Stories from User Experience (UX) Section
 
