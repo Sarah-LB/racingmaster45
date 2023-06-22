@@ -203,6 +203,10 @@ main .mixed-main {
 
 /*-----------------------------------------------------------contact.html*/
 
+.contact-form-wrapper {
+  padding-bottom: 100px;
+}
+
 .contact-form {
   padding: 30px 40px;
   background-color: #ffffff;
