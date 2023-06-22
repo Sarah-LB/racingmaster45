@@ -12,7 +12,7 @@ emailjs.init(publicKey);
 
 contactForm.addEventListener("submit", e => {
     e.preventDefault();
-    submitBtn.Btn.innerText = "Sending...";
+    submitBtn.innerHTML = "Sending...";
     const inputFields = {
         name: nameInput.value,
         email: emailInput.value,
@@ -20,11 +20,11 @@ contactForm.addEventListener("submit", e => {
     }
     emailjs.send(serviceID, templateID, inputFields)
     .then(() => {
-        submitBtn,innerText = "Message Sent";
+        submitBtn.innerHTML="Message Sent";
         nameInput.value="";
         emailInput.value="";
         messageInput.value="";
     }, (error) => {
-    submitBtn.innText = "Something went wrong";
+    submitBtn.innerHTML = "Something went wrong";
     });
 });
