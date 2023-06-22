@@ -105,23 +105,19 @@
         </header>
         <main>
             <section class="container-fluid mixed-main">
+                <div class="row contact-content">
+                    <div class="col-12">
+                        <h5 class="profile-title text-danger text-center pb-2">Contact me!</h5>
+                        <p class="description text-center">Have any questions or suggestions? Fill out the form to get in touch.</p>
+                    </div>
+                </div>
                 <div class="contact-form-wrapper d-flex justify-content-center">
                     <form id="contact-form" class="contact-form">
-                        <h5 class="profile-title text-danger text-center">Contact me!</h5>
-                        <p class="description">Have any questions or suggestions? Fill out the form to get in touch.</p>
-                        <div>
-                            <input type="text" class="form-control rounded border-white mb-3 form-input" id="name" name="user_name" placeholder="Name" required />
-                        </div>
-                        <div>
-                            <input type="email" class="form-control rounded border-white mb-3 form-input" name="user_email" placeholder="Email" required />
-                        </div>
-                        <div>
-                            <textarea id="message" class="form-control rounded border-white mb-3 form-text-area" name="message" rows="5" cols="30" placeholder="Message" required></textarea>
-                        </div>
-                        <div class="submit-button-wrapper">
-                            <input type="submit" value="Send" />
-                        </div>
-                    </form>
+                        <input type="text" class="form-control rounded border-white mb-3 form-input" id="name" name="user_name" placeholder="Name" required />
+                        <input type="email" class="form-control rounded border-white mb-3 form-input" name="user_email" placeholder="Email" required />
+                        <textarea id="message" class="form-control rounded border-white mb-3 form-text-area" name="message" rows="5" cols="30" placeholder="Message" required></textarea>
+                        <input type="submit" value="Send">
+                    </form>                    
                 </div>
             </section>
         </main>
