@@ -24,7 +24,7 @@ contactForm.addEventListener("submit", e => {
         nameInput.value="";
         emailInput.value="";
         messageInput.value="";
-    }, (error); => {
+    }, (error) => {
     submitBtn.innText = "Something went wrong";
     });
 });
